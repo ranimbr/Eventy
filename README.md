@@ -18,6 +18,7 @@
 - [Installation](#-installation)
 - [Lancer le projet](#-lancer-le-projet)
 
+
 ---
 
 ## ✨ Fonctionnalités
@@ -34,7 +35,7 @@
 
 - Authentification (inscription, connexion, déconnexion, réinitialisation du mot de passe)
 - Consultation de la **liste des événements** (titre, catégorie, lieu, dates, description, image)
-- **Inscription à un événement** (sans doublon)
+- **Inscription à un événement** 
 - Liste de **mes événements inscrits**
 - **Création d'événements** par l'utilisateur
 - **Gestion de mes événements** : modification et suppression des événements que j'ai créés
@@ -81,7 +82,7 @@ Eventy/
 - [PHP](https://www.php.net/) ≥ 8.1
 - [Composer](https://getcomposer.org/)
 - [Node.js](https://nodejs.org/) et npm
-- [MySQL](https://www.mysql.com/)  Laragon
+- [MySQL](https://www.mysql.com/) (ou MariaDB), par exemple via XAMPP / WAMP / Laragon
 - [Git](https://git-scm.com/)
 
 ---
@@ -168,10 +169,6 @@ php artisan serve --port=8001
 
 Crée ensuite un compte depuis la page `/register` de chaque application, puis connecte-toi sur `/login`.
 
----
-
-
-## 📄 Licence
 
 Ce projet est basé sur le framework [Laravel](https://laravel.com), distribué sous licence MIT.
 <!-- Ajoute un fichier LICENSE à la racine si tu souhaites préciser la licence de ton projet. -->
